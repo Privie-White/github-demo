@@ -8,13 +8,13 @@ public class Scenario1
         System.out.println("test");
     }
 
-    @BeforeTest
+    @Before
     public void initialize()
     {
         System.out.println("Initialization of webdriver");
     }
 
-    @AfterTest
+    @After
     public void closeDriver()
     {
         System.out.println("closing webdriver");
